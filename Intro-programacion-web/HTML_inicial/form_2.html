@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <form action="action_page.php" method="get"> <!--Estos atributos son para el desarrollador backend que use este código en el futuro-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+<!--
+    action: URL hacia donde se enviará la respuesta del formulario
+    method: método HTTP que se usará al enviar el formulario
+    name: nombre del formulario
+    en este caso dira que no se pudo enviar el form porque la página no esta bien
+-->

@@ -1,0 +1,84 @@
+/*
+Aca establecí las propiedades del elemento section
+*/
+section {
+    width: 500px;
+    border: 5px dotted lightcoral;
+    padding: 5px;
+    margin: 40px;
+}
+
+h1 {
+    border: 2px solid darkred;
+}
+
+p, span{
+    color: black;
+}
+
+/*SELECTORES
+El elemento * sirve para definir las propiedades que aplican a
+todos los elementos del documento
+
+La propiedad de este selector va en cascada, es decir que cada
+elemento priorizará primero las propiedades definidas ya en si mismo
+
+Se pueden compartir propiedades entre distintos elementos
+*/
+* {
+     color: darkblue;
+}
+
+/*Esto hago por el lado del CSS para aplicar unicamente propiedades
+a un elemento especifico usando su id ("mi_parrafo") en el ejemplo*/
+#mi_parrafo {
+    color: purple;
+    font-size: 25px;
+    border: 3px solid violet;
+}
+
+/*Asi creo una clase donde defino estilos específicos que voy a aplicar
+a elementos que elija usando el nombre de la clase para pasarla como
+atributo id en el HTML
+*/
+.miclase {
+    font-weight: bold;
+    color: darkblue;
+    /*Hay 3 notaciones para color
+    Hexa: Valor hexadecimal como #ff0000
+    RGB: Valor en la escala de rgb como "rgb(255,0,0)
+    Nombre: El nombre del color en inglés
+    */
+}
+
+/*Establece propiedades para los elementos section que tengan un h1 dentro.
+En este caso el título del artículo*/
+section h1 {
+    /*Tipografías*/
+    font-family: 'Roboto', sans-serif;/*Esta es la referencia que se agrega al CSS para la tipografía*/
+    
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center; /*Con esto lo centro*/
+}
+
+body {
+    background-image:  url("https://images.ecestaticos.com/1n8yNGPOG60rrgy9pbgRMtNls2A=/135x8:2152x1514/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F906%2Fa1a%2F498%2F906a1a49814f8fad9e920d0622380882.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-size: 1000px 800px;
+}/*La imagen no se muestra correctamente cuando se muestra en pantalla movil*/
+
+* {
+    box-sizing: border-box;
+}
+
+.cuadro {
+    float: left;
+    width: 25%;
+}
+
+.imagen {
+    width: 75%;
+    float: left;
+}
