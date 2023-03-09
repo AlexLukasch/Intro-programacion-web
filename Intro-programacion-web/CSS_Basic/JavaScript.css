@@ -1,4 +1,16 @@
-body {
+body 
+{
     background-color: lightblue;
-    
+}
+
+#acumClicks 
+{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#botonCliks
+{
+    font-weight: bold;
+    color: blueviolet;
 }
