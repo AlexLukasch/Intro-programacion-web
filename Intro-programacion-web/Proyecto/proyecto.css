@@ -1,3 +1,9 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
 body
 {
     background-color: lightblue;
@@ -9,6 +15,7 @@ body
     width: 700px;
     text-align: center;
     background-color: white;
+    padding: 10px;
 }
 
 #titulo
@@ -22,13 +29,35 @@ body
     text-align: justify;
 }
 
+#educacion_section
+{
+    border: 1px solid;
+    padding: 8px;
+}
+
 .info_educacion
 {
     text-align: justify;
     font-size: 16px;
 }
 
-#educacion_section
+#conociemientos_section
 {
+    text-align: justify;
     border: 1px solid;
+    padding: 8px;
+}
+
+#habilidades_section
+{
+    text-align: justify;
+    border: 1px solid;
+    padding: 8px;
+}
+
+#experiencia_section
+{
+    text-align: justify;
+    border: 1px solid;
+    padding: 8px;
 }
