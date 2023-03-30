@@ -45,9 +45,16 @@ body
 
 #habilidades_section
 {
-    text-align: justify;
+    text-align: center;
     border: 1px solid;
     padding: 8px;
+}
+
+.info_habilidades
+{
+    font-weight: bold;
+    width: 100%;
+    border:1px dotted black;
 }
 
 #experiencia_section
@@ -65,7 +72,7 @@ body
 }
 
 /*INFORMACION DE conocimientos, habilidades y experiencia*/
-.info_conocimientos,.info_habilidades,.info_experiencia
+.info_conocimientos, .info_experiencia
 {
     background-color: lightgray;
     font-weight: bold;
