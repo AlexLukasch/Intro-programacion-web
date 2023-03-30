@@ -23,12 +23,7 @@ body
     font-size: 40px;
 }
 
-#educacion
-{
-    font-size: 25px;
-    text-align: justify;
-}
-
+/*SECCIONES DE INFORMACION DEL CV*/
 #educacion_section
 {
     border: 1px solid;
@@ -60,4 +55,18 @@ body
     text-align: justify;
     border: 1px solid;
     padding: 8px;
+}
+
+/*TITULOS DE LAS SECCIONES DE INFORMACION*/
+#educacion_title, #conocimientos_title, #habilidades_title, #experiencia_title
+{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*INFORMACION DE conocimientos, habilidades y experiencia*/
+.info_conocimientos,.info_habilidades,.info_experiencia
+{
+    background-color: lightgray;
+    font-weight: bold;
 }
