@@ -54,7 +54,6 @@ body
 .info_habilidades
 {
     font-weight: bold;
-    width: 100%;
     border:1px dotted black;
 }
 
@@ -77,4 +76,9 @@ body
 {
     background-color: lightgray;
     font-weight: bold;
+}
+
+.tabla
+{
+    width: 100%;
 }
